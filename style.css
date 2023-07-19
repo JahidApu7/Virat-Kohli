@@ -11,7 +11,7 @@ h1 {
     color: orange;
 }
 
-section {
+.Flexible-Container {
     display: flex;
     margin: 15px;
 }
@@ -36,4 +36,25 @@ p {
     background-image: linear-gradient(orange, red);
     padding: 10px 30px;
     border-radius: 5px;
+}
+
+.Experience-item {
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin: 3%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#Fearless-leader-Virat-Kokhli {
+    border-left: 8px solid tomato;
+}
+
+#Artistry-Virat-kohli {
+    border-left: 8px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
